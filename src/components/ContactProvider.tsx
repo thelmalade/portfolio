@@ -8,12 +8,12 @@ import {
 } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 
-// Paste your free access key from https://web3forms.com (or set
-// VITE_WEB3FORMS_ACCESS_KEY in a .env file). Submissions land in the inbox
-// tied to that key — no backend required.
+// Web3Forms access key. This is a public, client-side key by design (it is
+// sent from the browser on submit), so it's safe to ship in the bundle.
+// An env override is still supported for local/other setups.
 const ACCESS_KEY =
   (import.meta.env.VITE_WEB3FORMS_ACCESS_KEY as string | undefined) ||
-  "YOUR_WEB3FORMS_ACCESS_KEY";
+  "0e16b5d7-c608-4285-8d8c-6c7df0c2ecc4";
 
 const EMAIL = "afolatemi010@gmail.com";
 
