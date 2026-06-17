@@ -59,8 +59,8 @@ const EDUCATION = [
     period: "2023",
   },
   {
-    title: "freeCodeCamp",
-    detail: "Responsive Web Design & JavaScript Algorithms",
+    title: "Scrimba",
+    detail: "Frontend Developer Career Path",
     period: "2023",
   },
 ];
