@@ -54,9 +54,14 @@ const SKILLS: { group: string; items: string[] }[] = [
 
 const EDUCATION = [
   {
-    title: "Self-directed & Project-based Learning",
-    detail: "Front End Development",
-    period: "2023 — Present",
+    title: "Meta Front-End Developer",
+    detail: "Professional Certificate · Coursera",
+    period: "2023",
+  },
+  {
+    title: "freeCodeCamp",
+    detail: "Responsive Web Design & JavaScript Algorithms",
+    period: "2023",
   },
 ];
 
